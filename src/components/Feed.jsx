@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./feed.css"
 import Post from './ui/Post';
 import Tweetbox from './ui/TweetBox';
-import db from './firebase';
+import db from '../firebase';
 import FlipMove from 'react-flip-move';
 
 const Feed = () => {
